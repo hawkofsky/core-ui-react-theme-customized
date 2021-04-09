@@ -1,0 +1,45 @@
+// Here you can add other styles
+.c-sidebar {
+  background-color: #4d5357;
+}
+.c-sidebar .c-sidebar-brand {
+  background-color: #123f6d;
+}
+.c-sidebar .c-sidebar-nav-link:hover, .c-sidebar .c-sidebar-nav-dropdown-toggle:hover {
+  background-color: #0081a8;
+}
+.c-sidebar .c-sidebar-minimizer, .c-sidebar .c-sidebar-minimizer:hover {
+  background-color: #123f6d;
+}
+.c-sidebar .c-sidebar-nav-link.c-active, .c-sidebar .c-active.c-sidebar-nav-dropdown-toggle {
+  background-color: #0081a8;
+}
+
+@font-face {
+  font-family: "spartan";
+  src: url(../assets//fonts/Spartan/Spartan-VariableFont_wght.ttf) format("truetype");
+}
+
+body {
+  font-family: "spartan";
+}
+
+.bg-compass-teal {
+  background: #007A87 !important;
+  border-color: #007A87 !important;
+}
+
+.bg-compass-orange {
+  background: #ff9a00 !important;
+  border-color: #ff9a00 !important;
+}
+
+.bg-compass-lime-green {
+  background: #BED600 !important;
+  border-color: #BED600 !important;
+}
+
+.bg-compass-red {
+  background: #CD202C !important;
+  border-color: #CD202C !important;
+}
